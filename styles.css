@@ -3,8 +3,8 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #6cb655;
+  color: #000000;
 }
 
 header {
@@ -40,6 +40,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
 }
 
 .loader {
@@ -78,9 +79,11 @@ main {
   margin-bottom: 10px;
 }
 
-.card-details {
-  list-style-type: none;
-  padding: 0;
+.card-title {
+  font-size: 1.5em;
+  color: #2e7d32;
+  margin-bottom: 10px;
+  text-align: center; /* Alinear el texto al centro */
 }
 
 .card-details li {
